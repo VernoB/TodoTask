@@ -1,0 +1,18 @@
+{
+  "tags": {
+    "allowUnknowTags": true,
+    "dictionnaries": ["jsdoc", "closure"]
+  },
+  "sourceType": "module",
+  "source": {
+    "include": ["src/controllers", "src/middleware", "./app.js"],
+    "includePattern": ".+\\.js(doc|x)?$"
+  },
+  "opts": {
+    "template": "node_modules/docdash",
+    "destination": "./docs/",
+    "recurse": true,
+    "verbose": true
+  },
+  "recurseDepth": 10
+}

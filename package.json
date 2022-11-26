@@ -1,0 +1,39 @@
+{
+  "name": "todoproject",
+  "version": "1.0.1",
+  "description": "for interview question",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc ./src -r -c jsdoc.config.json -d docs"
+  },
+  "author": "Vernob",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bodyparser-json-error": "^1.0.0",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "fs": "^0.0.1-security",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.0",
+    "rimraf": "^3.0.2"
+  }
+}
